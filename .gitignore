@@ -1,0 +1,32 @@
+# 构建输出目录
+build/
+dist/
+out/
+target/
+
+# Python 打包/缓存产物
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# 大文件二进制产物（按需保留，避免误伤源码中的二进制）
+*.exe
+*.pkg
+*.dmg
+*.app
+
+# IDE / 编辑器
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+*.tmp
